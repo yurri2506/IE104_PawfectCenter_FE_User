@@ -2,7 +2,7 @@
 
 * University of Information Technology, VNU-HCM  
 * Faculty: Information Science and Engineering  
-* Instructor: MSc. Võ Tấn Khoa  
+* Instructor: Ths. Võ Tấn Khoa  
 * Student Group: Group 1
 
 ## 📢 Feedback Form: [Submit your feedback here](https://forms.gle/VU4rxi5Z8cxpAJTA8)
@@ -11,7 +11,7 @@
 
 | No. | Full Name | Student ID | Role |
 |:---:|:-----------------------------:|:--------:|:------------:|
-| 1.  | Nguyễn Lê Thanh Huyền        | 225220590 | Team Leader |
+| 1.  | Nguyễn Lê Thanh Huyền        | 225220590 | Leader      |
 | 2.  | Võ Văn Phi Thông             | 22521435  | Member      |
 | 3.  | Nguyễn Ngọc Thanh Tuyền      | 22521631  | Member      |
 | 4.  | Võ Thị Phương Uyên           | 22521645  | Member      |
@@ -110,8 +110,39 @@
 - [MongoDB] – NoSQL database used for storing site data  
 - [HTML-CSS-JS] – Core web technologies (includes SCSS extension for styling)
 
-## 📎 GitHub Links
+## 🛠 Installation Guide
 
-- [Frontend (User)](https://github.com/ptvmarch26/setup_react)  
-- [Frontend (Admin)](https://github.com/ThanhTuynn/IE104_FE_Admin)  
-- [Backend](https://github.com/FirstOne2308/Backend_ThuCung)
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 16+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [MongoDB](https://www.mongodb.com/) running locally or hosted (e.g. MongoDB Atlas)
+
+---
+
+### 1. Install the necessary applications as required 
+### 2. Clone the repositories
+
+```bash
+# Frontend for Users
+git clone https://github.com/ptvmarch26/setup_react.git
+
+# Frontend for Admin
+git clone https://github.com/ThanhTuynn/IE104_FE_Admin.git
+
+# Backend
+git clone https://github.com/FirstOne2308/Backend_ThuCung.git
+```
+### 3. Run npm install to download the necessary packages for the application
+### 4. Add [.env](https://docs.google.com/document/d/1erLAsHdnt3dNjXRLS7huo5bF3y4j8wOBqGT6nTeseu4/edit?tab=t.0) to the backend folder
+### 5. Run npm start in the terminal of each folder
+### 6. Open the website with the following accounts:
+- User: (clone the code for FE_User and BE)
+  - Phone number: 0123456789
+  - Password: 123456789
+- Admin: (clone the code for FE_Admin and BE)
+  - Username: admin123
+  - Password: admin12345
+
